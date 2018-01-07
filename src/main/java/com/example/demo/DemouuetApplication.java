@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemouuetApplication {
 
 	public static void main(String[] args) {
+
+		String ev= System.getenv().get("PORT");
+
 		SpringApplication.run(DemouuetApplication.class, args);
 	}
 }
