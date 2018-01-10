@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.*;
  * oontroller
  * data layer from user interface
  * handle server related data,e.g http request
- */
+ *docker push whispering-earth-31297.herokuapp.com/web  image name of this file to push on heroku
+**/
 @RestController ///anotate using rest controller //point sepecific poin
 @RequestMapping(path = "")
 public class MyDemo {
